@@ -10,19 +10,11 @@ Users can interact with our application in the following ways:
 
 
 ### Installation
-Follow these instructions to install and run the project on your local machine.
-
-1. Clone this repository to your computer:
-  
-2. Navigate to the project directory:
-
-3. Install the dependencies:
-
-4. Add your details to config.
-
-5. Run the application:
-
-6. Open a web browser and visit http://localhost:5000 to view app.
+1. You must get the api key from https://api.nasa.gov/ and paste it into config.py in the API_KEY field
+2. To use the message sender for communication, insert your email and password into the SENDER and PASSWORD fields in config.py. This is not necessary for the main program to work.
+3. sudo docker build -t perseverance_app .
+4. sudo docker run --name perseverance -p 5000:5000 -d perseverance_app
+5. Open a web browser and visit http://localhost:5000 to view app.
 
 REQUIREMENTS -> requrements.txt
 

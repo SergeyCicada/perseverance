@@ -1,3 +1,3 @@
-API_KEY = ''
-SENDER = ''
-PASSWORD = ''
+API_KEY = ' '
+SENDER = ' '
+PASSWORD = ' '
